@@ -8,29 +8,14 @@ This project presents a structured analysis of Major League Baseball (MLB) data 
 
 The SQL script is organized into four main parts:
 
-### Part I: School Analysis
-Analyze the educational background of MLB players:
-- Count of schools producing MLB players per decade
-- Top schools overall and by decade
-- School data enrichment via `school_details`
+## 📊 Project Structure
 
-### Part II: Salary Analysis
-Explore salary trends and team-level spending:
-- Top 20% highest-spending teams
-- Cumulative salary spending over time
-- Teams crossing the $1 billion mark
-
-### Part III: Player Career Analysis
-Understand individual player trajectories:
-- Starting and ending ages and career length
-- First and last teams played for
-- Players loyal to a single team for over 10 years
-
-### Part IV: Player Comparison Analysis
-Compare player attributes and behaviors:
-- Players sharing birthdays
-- Batting style distribution by team
-- Decade-over-decade changes in debut height and weight
+| Part | Topic | Key Analyses |
+|------|-------|--------------|
+| **I** | School Analysis | • Join `schools` + `school_details`<br>• Count schools by decade<br>• Top 5 schools overall<br>• Top 3 schools per decade |
+| **II** | Salary Analysis | • View salary data<br>• Top 20% teams by average spend<br>• Cumulative salary over years<br>• Year teams surpassed $1B |
+| **III** | Player Career Analysis | • Age at debut and final game<br>• Career length in years<br>• Start and end teams<br>• 10+ years on same team |
+| **IV** | Player Comparison Analysis | • Players with shared birthdays<br>• Batting style breakdown by team<br>• Debut height/weight by decade<br>• Decade-over-decade differences |
 
 ---
 
