@@ -8,8 +8,6 @@ This project presents a structured analysis of Major League Baseball (MLB) data 
 
 The SQL script is organized into four main parts:
 
-## 📊 Project Structure
-
 | Part | Topic | Key Analyses |
 |------|-------|--------------|
 | **I** | School Analysis | • Join `schools` + `school_details`<br>• Count schools by decade<br>• Top 5 schools overall<br>• Top 3 schools per decade |
