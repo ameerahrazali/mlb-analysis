@@ -54,5 +54,3 @@ To run the analysis:
 
 This project uses data from the Maven Analytics Advanced SQL course. It was created for educational and portfolio purposes.
 
----
-
