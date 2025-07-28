@@ -67,7 +67,7 @@ _School Contributions & Legacy_
 
 ## Tools Used
 
-- **MySQL** (or compatible SQL engine)  
+- **MySQL** 
 - **Tableau Desktop** (for dashboard creation)  
 - **Maven Analytics MLB dataset**  
 - SQL window functions, CTEs, aggregates  
@@ -94,6 +94,6 @@ To explore or reproduce the analysis:
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 This project uses data from the Maven Analytics Advanced SQL course. It was created for educational and portfolio purposes.
