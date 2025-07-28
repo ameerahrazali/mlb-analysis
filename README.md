@@ -20,11 +20,11 @@ The SQL and dashboard components are organized into four key areas:
 ## Files Included
 
 - [`final_project.sql`](final_project.sql): Main SQL script containing all structured queries and insights.
-- [`Major League Baseball Analysis.twb`](assets/Major%20League%20Baseball%20Analysis.twb): Tableau Workbook file containing all dashboards.
 - `assets/` folder:
   - `MLB_Salary.gif`: Animated preview of the salary dashboard.
   - `MLB_Players.gif`: Animated preview of the player analysis dashboard.
   - `MLB_School.gif`: Animated preview of the school-level dashboard.
+  - [`Major League Baseball Analysis.twb`](assets/Major%20League%20Baseball%20Analysis.twb): Tableau Workbook file containing all dashboards.
 
 > _Note: Tableau dashboards were created using Tableau Desktop and are not hosted on Tableau Public due to publishing limitations._
 
