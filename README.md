@@ -1,12 +1,12 @@
 # MLB SQL Analysis
 
-This project presents a structured analysis of Major League Baseball (MLB) data using SQL. The analysis is performed on multiple tables containing player, school, and salary information, and is divided into four key areas: school analysis, salary trends, player career progression, and attribute comparisons.
+This project presents a structured analysis of Major League Baseball (MLB) data using SQL and visualized through Tableau dashboards. The analysis spans player statistics, school affiliations, and team salary trends, offering multi-perspective insights into the MLB landscape.
 
 ---
 
 ## Project Structure
 
-The SQL script is organized into four main parts:
+The SQL and dashboard components are organized into four key areas:
 
 | Part | Topic | Key Analyses |
 |------|-------|--------------|
@@ -17,40 +17,83 @@ The SQL script is organized into four main parts:
 
 ---
 
-## File
+## Files Included
 
-- [`mlb_analysis.sql`](final_project.sql): Main SQL script containing all structured queries and analysis.
+- [`final_project.sql`](final_project.sql): Main SQL script containing all structured queries and insights.
+- [`Major League Baseball Analysis.twb`](assets/Major%20League%20Baseball%20Analysis.twb): Tableau Workbook file containing all dashboards.
+- `assets/` folder:
+  - `MLB_Salary.gif`: Animated preview of the salary dashboard.
+  - `MLB_Players.gif`: Animated preview of the player analysis dashboard.
+  - `MLB_School.gif`: Animated preview of the school-level dashboard.
+
+> _Note: Tableau dashboards were created using Tableau Desktop and are not hosted on Tableau Public due to publishing limitations._
+
+---
+
+## Tableau Dashboard Themes
+
+### 1. MLB Salary Landscape  
+_Spending, Trends & Top Earners_
+
+- Top 10 highest-paid players  
+- KPI cards on salary spending  
+- Salary trend by year and team  
+
+![MLB Salary Dashboard](assets/MLB_Salary.gif)
+
+---
+
+### 2. MLB Player Careers  
+_Debuts, Longevity & Profiles_
+
+- Career spans across decades  
+- Player debut patterns  
+- KPI cards and highlight metrics  
+
+![MLB Player Dashboard](assets/MLB_Players.gif)
+
+---
+
+### 3. MLB School Impact  
+_School Contributions & Legacy_
+
+- Player origins by school and state  
+- Total salary by school  
+- Career duration and performance funnels  
+
+![MLB School Dashboard](assets/MLB_School.gif)
 
 ---
 
 ## Tools Used
 
-- MySQL (or compatible SQL engine)
-- Maven Analytics MLB dataset
-- SQL window functions, CTEs, joins, and aggregates
+- **MySQL** (or compatible SQL engine)  
+- **Tableau Desktop** (for dashboard creation)  
+- **Maven Analytics MLB dataset**  
+- SQL window functions, CTEs, aggregates  
 
 ---
 
 ## Key Skills Demonstrated
 
-- Analytical SQL for real-world data exploration
-- Use of CTEs and window functions (`ROW_NUMBER`, `NTILE`, `LAG`)
-- Data summarization and pivot-style aggregation
-- Decade-based time series analysis
+- Analytical SQL for real-world data exploration  
+- Use of `ROW_NUMBER`, `NTILE`, `LAG`, and other advanced functions  
+- Data summarization, blending, and transformation  
+- Custom dashboard storytelling using Tableau  
 
 ---
 
 ## Getting Started
 
-To run the analysis:
+To explore or reproduce the analysis:
 
-1. Import the database `maven_advanced_sql` into your SQL environment.
-2. Open and execute the queries in `mlb_analysis.sql` step by step.
-3. Explore and extend each section based on your analytical needs.
+1. Import the database `maven_advanced_sql` into your SQL environment.  
+2. Run the queries from `final_project.sql` step by step.  
+3. Open `Major League Baseball Analysis.twb` in Tableau Desktop to view dashboards.  
+4. Preview dashboards from the GIFs in the `assets` folder.  
 
 ---
 
-## Acknowledgments
+## 🙏 Acknowledgments
 
 This project uses data from the Maven Analytics Advanced SQL course. It was created for educational and portfolio purposes.
-
